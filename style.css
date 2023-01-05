@@ -1,0 +1,33 @@
+body {
+  background-image: url("./assets/bg.png");
+  display: flex;
+  justify-content: center;
+}
+
+#container {
+  background-color: white;
+  width: 500px;
+  height: 100%;
+  margin: auto 0;
+  align-self: center;
+}
+
+#title img {
+  background-image: url("./assets/title.png");
+  width: 500px;
+  height: 200px;
+}
+
+#container > div {
+  display: flex;
+
+  justify-content: space-between;
+  padding: 1px;
+}
+
+#container > div > p {
+  margin-top: 2px;
+}
+#container > div > img {
+  margin-left: 2px;
+}
